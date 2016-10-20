@@ -7,4 +7,5 @@
 ## 依赖包： requests, beautifulsoup4（其中用到了lxml HTML 解析器）
 
 为省事，采用cookie登陆！直接复制Chrome浏览器调试中的cookie粘贴输入。当然，为以后使用方便，建议粘贴进入代码中。
-其中 url 类似这样： `http://mooc.study.163.com/learn/ZJU-1000033001?tid=1000044001`
+#### 其次，下载较粗糙，无断点续传。。。
+#### 其中 url 类似这样： `http://mooc.study.163.com/learn/ZJU-1000033001?tid=1000044001`
