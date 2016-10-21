@@ -99,7 +99,7 @@ Chapters = StrContent2Chapter(str_content)
 SavePath0 = 'H:\\Course['+tid+']' # 课程保存路径
 if not os.path.exists(SavePath0):
     os.mkdir(SavePath0)
-for i0 in range(len(Charpters)):  # 章
+for i0 in range(len(Chapters)):  # 章
     str_Chapter = re.sub('[\/\\\:\*\?\"\<\>\|]','_',Chapters[i0][1])
     SavePath1 = os.path.join(SavePath0,'【{}】'.format(i0+1)+str_Chapter)
     if not os.path.exists(SavePath1):
